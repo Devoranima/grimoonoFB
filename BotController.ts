@@ -1,6 +1,6 @@
-import { Message, Update } from "typegram";
-import {Telegraf, Input, Markup, Context, Scenes, session, NarrowedContext} from 'telegraf';
+import {Telegraf, Markup, Context} from 'telegraf';
 import dotenv from 'dotenv';
+import { Update } from 'telegraf/typings/core/types/typegram';
 dotenv.config();
 
 const bot_token = process.env.BOT_TOKEN as string;
