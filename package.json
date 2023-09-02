@@ -4,6 +4,7 @@
   "description": "feedback from grimoono",
   "main": "index.ts",
   "scripts": {
+    "start": "node dist/index.js",
     "dev": "nodemon index.ts",
     "build": "tsc"
   },
