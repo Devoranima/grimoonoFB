@@ -49,7 +49,7 @@ export class Bot extends Telegraf<Context<Update>>{
 
   handleStart(){
     this.start((ctx)=>{
-      ctx.reply('Welcome, stranger! \nThis bot was made to gather feedback from players about Grimoono');
+      ctx.reply('Welcome, stranger!');
     })
   }
 
